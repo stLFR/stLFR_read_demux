@@ -20,7 +20,11 @@ In the output fastq files, reads are split by barcodes, as indicated in read nam
 To run:
 
 Example: PE100 with 54 base barcodes:
+
 	perl split_barcode_PEXXX_54_reads.1.pl barcode.list barcode_RC.list read_1.fq.gz read_2.fq.gz 100 split_read
+	
 	perl split_barcode_PEXXX_54_reads.2.pl barcode.list barcode_RC.list read_1.fq.gz read_2.fq.gz 100 split_read
+	
 Example: SE50 with 42 base barcodes:
+
 	perl split_barcode_SEXXX_42RC_reads.1.pl barcode.list barcode_RC.list read1.fq.gz 100 split_read
