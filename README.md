@@ -27,4 +27,4 @@ Example: PE100 with 54 base barcodes:
 	
 Example: SE50 with 42 base barcodes:
 
-	perl split_barcode_SEXXX_42RC_reads.1.pl barcode.list barcode_RC.list read1.fq.gz 100 split_read
+	perl split_barcode_SEXXX_42RC_reads.1.pl barcode.list barcode_RC.list read1.fq.gz 50 split_read
